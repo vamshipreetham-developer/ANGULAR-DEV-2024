@@ -1,0 +1,39 @@
+var company = [
+    {
+        Name:"nani",
+        Age:20,
+        Adress:"knr",
+        Salary:20000,
+    },
+    {
+        Name:"vinsha",
+        Age:22,
+        Adress:"vmd",
+        Salary:30000,
+    },
+    {
+        Name:"rakesh",
+        Age:27,
+        Adress:"hyd",
+        Salary:25000,
+    },
+    {
+        Name:"vijay",
+        Age:26,
+        Adress:"krkl",
+        Salary:40000,
+    },
+];
+//console.log(company)
+//console.log(company[0].Name)  
+ for(var i=0;i<company.length;i++){
+    if(company[i].Age>25){
+        //console.log(company[i])
+    }
+ }
+  for(var i=0;i<company.length;i++){
+    if(company[i].Name.startsWith('v'))
+    {
+        console.log(company[i])
+    }
+  }
